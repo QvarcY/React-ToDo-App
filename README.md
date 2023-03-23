@@ -1,7 +1,38 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+![image](https://user-images.githubusercontent.com/118832438/227322224-7af368b1-866e-4f84-8b5c-28fe0fc80af4.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React To-Do App
+DONT FORGET TO ![image](https://user-images.githubusercontent.com/118832438/227325321-3c94a15d-0cbe-491d-b84f-b43237b87f5e.png)
+ My Repo
+
+
+This is a simple React To-Do application that allows users to:
+- add tasks with descriptions, 
+- start times, and end times. 
+- Tasks can be marked as completed or important and 
+- users can also delete tasks from the list. 
+- Additionally, the order of tasks can be reversed by clicking a button.
+
+![image](https://user-images.githubusercontent.com/118832438/227321074-072970a7-fb1c-4096-adbd-ed5a63803285.png)
+
+About this app from begining code to this repo (Latvian): https://kas.id.lv/2023/03/23/react-keys-izmantosana-ar-list-komponentiem/
+## Contributing
+
+We welcome contributions to this project! If you would like to contribute, please follow these steps:
+
+1. Fork this repository on GitHub.
+2. Clone your forked repository to your local machine.
+3. Make your changes and commit them to your local repository.
+4. Push your changes to your forked repository on GitHub.
+5. Submit a pull request to this repository with a description of your changes.
+
+
+## Getting Started
+
+To get started with this project, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Navigate to the project directory and run `npm install` to install the dependencies.
+3. Run `npm start` to start the development server and view the application in your browser.
 
 ## Available Scripts
 
@@ -40,37 +71,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# React-ToDo-App
-This code is for a simple React To-Do application. It allows users to add tasks with descriptions, start times, and end times. Tasks can be marked as completed or important. Users can also delete tasks from the list. The order of tasks can be reversed by clicking a button.
->>>>>>> 3c1077d9311e147d856edeb792adcaa861016a64
 
