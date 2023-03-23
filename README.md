@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# React-ToDo-App
+This code is for a simple React To-Do application. It allows users to add tasks with descriptions, start times, and end times. Tasks can be marked as completed or important. Users can also delete tasks from the list. The order of tasks can be reversed by clicking a button.
+>>>>>>> 3c1077d9311e147d856edeb792adcaa861016a64
