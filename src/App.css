@@ -1,115 +1,32 @@
-* {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+*{ box-sizing: border-box; font-family: Arial, Helvetica, sans-serif; } body { background-color: #18122B; color: white; }
+
+input[type=“text”], input[type=“time”], button { font-size: 16px; padding: 8px 12px; border: none; border-radius: 5px; margin-right: 10px; margin-bottom: 10px; }
+
+button { background-color: #FCA652; color: white; cursor: pointer; }
+
+button:hover { background-color: #FFD57E; }
+
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+
+td { padding: 10px; border:1px solid #AC4B1C ; }
+
+th { padding:10px ; border :1px solid #AC4B1C ; background-color:#FCA652 ; color:white ; text-align:left ; }
+
+.completed td { text-decoration : line-through ; }
+
+.ToDo td:nth-child(2), .ToDo td:nth-child(3) { text-align:center ; }
+
+.ToDo td:nth-child(3) { cursor:pointer ; }
+
+.ToDo td:nth-child(3):hover { background-color:#FCA652 ; color:white ; }
+
+.ToDo td:last-child{ text-align:center ; }
+
+.ToDo{ background-color : transparent ; border:none ; box-shadow:none ; } .ToDo:hover{ background-color : rgba(255,255,255,0.5) ; border-radius :10px ; box-shadow :0 0 10px rgba(0,0,0,0.5) ; } .ToDo td{ border:none ; } .ToDo td:first-child{ border-top-left-radius :10px ; border-bottom-left-radius :10px ; } .ToDo td:last-child{ border-top-right-radius :10px ; border-bottom-right-radius :10px ; } .ToDo td:last-child button{ background-color:#FCA652 ; color:white ; padding :5px 10px ; border-radius :5px ; cursor:pointer ; transition :background-color .3s ease; } .ToDo td:last-child button:hover{ background-color:#FFD57E;
+} .completed{ text-decoration :line-through;
+} input[type=“text”]:focus, input[type=“time”]:focus{ outline:none; border :2px solid #FFD57E;
 }
 
-body {
-  background-color: #F4F9F9;
-  margin: 100px;
-}
-
-input[type="text"],
-input[type="time"],
-button {
-  font-size: 16px;
-  padding: 8px 12px;
-  border: none;
-  border-radius: 5px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-
-button {
-  background-color: #FFD57E;
-  color: white;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #FCA652;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-}
-
-td {
-  padding: 10px;
-  border: 1px solid #AC4B1C;
-  background-color: white;
-}
-
-th {
-  padding: 10px;
-  border: 1px solid #AC4B1C;
-  background-color: #FFEFA0;
-  color: white;
-  text-align: left;
-}
-
-.completed td {
-  text-decoration: line-through;
-}
-
-.ToDo td:nth-child(2),
-.ToDo td:nth-child(3) {
-  text-align: center;
-}
-
-.ToDo td:nth-child(3) {
-  cursor: pointer;
-}
-
-.ToDo td:nth-child(3):hover {
-  background-color: #18122B;
-  color: white;
-}
-
-.ToDo td:last-child {
-  text-align: center;
-}
-
-.ToDo {
-  background-color: transparent;
-  border: none;
-  box-shadow: none;
-}
-
-.ToDo:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-.ToDo td {
-  border: none;
-}
-
-.ToDo td:first-child {
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-}
-
-.ToDo td:last-child {
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
-.ToDo td:last-child button {
-  background-color: #18122B;
-  color: white;
-  padding: 5px 10px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.ToDo td:last-child button:hover {
-  background-color: #18122B;
-}
-
-.completed {
-  text-decoration: line-through;
+input[type="checkbox"].checked {
+  background-color: #ccc;
 }
