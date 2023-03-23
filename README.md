@@ -12,6 +12,11 @@ This is a simple React To-Do application that allows users to:
 - users can also delete tasks from the list. 
 - Additionally, the order of tasks can be reversed by clicking a button.
 
+NEW update v3 to APP, added some components like edit task, star task ... and adding function moved inside the block for compact and better looking design
+Screenshot with updates:
+![image](https://user-images.githubusercontent.com/118832438/227368859-9ae19b93-3e82-4d33-980e-0ba7e74165ac.png)
+
+First published version V2:
 ![image](https://user-images.githubusercontent.com/118832438/227321074-072970a7-fb1c-4096-adbd-ed5a63803285.png)
 
 About this app from begining code to this repo (Latvian): https://kas.id.lv/2023/03/23/react-keys-izmantosana-ar-list-komponentiem/
